@@ -225,8 +225,8 @@
 #define PACKAGE_VERSION "3.0.4"
 
 /* Define to enable DNS auth plugin */
-/* #undef PRT_DNSAUTH */
-#define PRT_DNSAUTH 1
+#undef PRT_DNSAUTH
+//#define PRT_DNSAUTH 1
 
 /* Define to enable support for referer exceptions */
 #define REFEREREXCEPT /**/
