@@ -1,17 +1,20 @@
 /* dgconfig.h.  Generated from dgconfig.h.in by configure.  */
 /* dgconfig.h.in.  Generated from configure.ac by autoheader.  */
 
+/* Define if building universal (internal helper macro) */
+/* #undef AC_APPLE_UNIVERSAL_BUILD */
+
 /* Define to enable support for add header */
-#define ADDHEADER 
+#define ADDHEADER /**/
 
 /* Maximum number of open filedescriptors */
-#define DANS_MAXFD 8096
+/* #undef DANS_MAXFD */
 
 /* Define to enable debug build mode */
 /* #undef DGDEBUG */
 
 /* Record configure-time options */
-#define DG_CONFIGURE_OPTIONS " '--mandir=/usr/share/man/' '--with-proxyuser=dansguardian' '--with-proxygroup=dansguardian' '--prefix=/usr' '--mandir=${prefix}/share/man' '--infodir=${prefix}/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--enable-commandline=yes' '--enable-trickledm=yes' 'CXX=g++' 'CXXFLAGS=-g -O2' 'LDFLAGS=' 'CPPFLAGS=' 'CC=cc' 'CFLAGS=-g -O2' '--enable-email=no' '--enable-ntlm=no' '--enable-pcre=yes' '--with-filedescriptors=8096'"
+#define DG_CONFIGURE_OPTIONS " '--enable-pcre=no' '--enable-clamd=no' '--enable-segv-backtrace=no' '-enable-avastd=no' '--enable-icap=no' '--enable-kavd=no' '--enable-ntlm=no' '--sysconfdir=/system/etc' '--with-sysconfsubdir=e2guardian' '--prefix='"
 
 /* Define to enable AvastD content scanner */
 /* #undef ENABLE_AVASTD */
@@ -20,7 +23,7 @@
 /* #undef ENABLE_CLAMD */
 
 /* Define to enable command-line content scanner */
-#define ENABLE_COMMANDLINE /**/
+/* #undef ENABLE_COMMANDLINE */
 
 /* Define to enable email reporting */
 /* #undef ENABLE_EMAIL */
@@ -44,7 +47,10 @@
 /* #undef ENABLE_SEGV_BACKTRACE */
 
 /* Define to enable trickle download manager */
-#define ENABLE_TRICKLEDM /**/
+/* #undef ENABLE_TRICKLEDM */
+
+/* Define to allow DANS_MAXFD to exceed FD_SETSIZE */
+/* #undef FD_SETSIZE_OVERIDE */
 
 /* Define to 1 if you have the <arpa/inet.h> header file. */
 #define HAVE_ARPA_INET_H 1
@@ -95,16 +101,13 @@
 #define HAVE_NETINET_IN_H 1
 
 /* Define to enable PCRE support */
-#define HAVE_PCRE /**/
+/* #undef HAVE_PCRE */
 
 /* Define to 1 if you have the <pwd.h> header file. */
 #define HAVE_PWD_H 1
 
 /* Define to 1 if you have the `regcomp' function. */
-/* #undef HAVE_REGCOMP */
-
-/* Define to 1 if you have the `resolv' function. */
-/* #undef HAVE_RESOLV */
+#define HAVE_REGCOMP 1
 
 /* Define to 1 if you have the `select' function. */
 #define HAVE_SELECT 1
@@ -191,14 +194,14 @@
 #define HAVE_ZLIB_H 1
 
 /* Define to enable support for legacy log format */
-/* #undef LEGACY_LOG */
+#define LEGACY_LOG /**/
 
 /* Define to enable support for local lists */
 /* #undef LOCAL_LISTS */
 
 /* Define if type "off_t" is a typedef of another type for which String
    already has a constructor */
-/* #undef OFFT_COLLISION */
+#define OFFT_COLLISION /**/
 
 /* Name of package */
 #define PACKAGE "e2guardian"
@@ -210,28 +213,34 @@
 #define PACKAGE_NAME "e2guardian"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "e2guardian 1.0.0.1"
+#define PACKAGE_STRING "e2guardian 3.0.4"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "e2guardian"
 
+/* Define to the home page for this package. */
+#define PACKAGE_URL ""
+
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.0.0.1  First Alpha release  -"
+#define PACKAGE_VERSION "3.0.4"
 
 /* Define to enable DNS auth plugin */
 /* #undef PRT_DNSAUTH */
 
 /* Define to enable support for referer exceptions */
-#define REFEREXCEPT 
+#define REFEREREXCEPT /**/
+
+/* Define to enable exceptions on http referer header */
+/* #undef REFEREXCEPT */
 
 /* Define to enable support for regexp redirects */
-#define RXREDIRECTS 
+#define RXREDIRECTS /**/
 
 /* Define to enable support for ssl extra lists */
-#define SEARCHWORDS 
+#define SEARCHWORDS /**/
 
 /* Define to enable support for ssl extra lists */
-#define SSL_EXTRA_LISTS 
+#define SSL_EXTRA_LISTS /**/
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
@@ -240,22 +249,30 @@
 /* #undef TOTAL_BLOCK_LIST */
 
 /* Version number of package */
-#define VERSION "1.0.0.1"
+#define VERSION "3.0.4"
 
-/* Define to 1 if your processor stores words with the most significant byte
-   first (like Motorola and SPARC, unlike Intel and VAX). */
-/* #undef WORDS_BIGENDIAN */
+/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
+   significant byte first (like Motorola and SPARC, unlike Intel). */
+#if defined AC_APPLE_UNIVERSAL_BUILD
+# if defined __BIG_ENDIAN__
+#  define WORDS_BIGENDIAN 1
+# endif
+#else
+# ifndef WORDS_BIGENDIAN
+/* #  undef WORDS_BIGENDIAN */
+# endif
+#endif
 
 /* Define to `int' if <sys/types.h> doesn't define. */
 /* #undef gid_t */
 
-/* Define to `long' if <sys/types.h> does not define. */
+/* Define to `long int' if <sys/types.h> does not define. */
 /* #undef off_t */
 
 /* Define to `int' if <sys/types.h> does not define. */
 /* #undef pid_t */
 
-/* Define to `unsigned' if <sys/types.h> does not define. */
+/* Define to `unsigned int' if <sys/types.h> does not define. */
 /* #undef size_t */
 
 /* Define to `int' if <sys/types.h> doesn't define. */
