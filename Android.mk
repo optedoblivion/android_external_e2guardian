@@ -67,7 +67,9 @@ LOCAL_CFLAGS += -DPKGDATADIR="\"$(CONFIG_DIR)\"" \
 	-Werror=implicit \
         -g \
         -O2 \
+        -fexceptions \
         -fstack-protector \
+        -Wno-error=sequence-point \
 	-DANDROID \
         -DHAVE_CONFIG_H
 
