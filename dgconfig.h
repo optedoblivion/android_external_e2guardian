@@ -226,6 +226,7 @@
 
 /* Define to enable DNS auth plugin */
 /* #undef PRT_DNSAUTH */
+#define PRT_DNSAUTH 1
 
 /* Define to enable support for referer exceptions */
 #define REFEREREXCEPT /**/
@@ -280,3 +281,10 @@
 
 /* Define as `fork' if `vfork' does not work. */
 /* #undef vfork */
+
+#define __CONFFILE "FIXME"
+#define __PIDDIR "/system/etc/e2guardian/pid"
+#define __LOGLOCATION "/system/etc/e2guardian/log"
+#define __PROXYUSER "nobody"
+#define __PROXYGROUP "nobody"
+
