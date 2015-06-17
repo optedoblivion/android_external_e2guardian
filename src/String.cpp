@@ -23,6 +23,8 @@
 #include <cstdlib>
 #include <cstring>
 
+#include <ctype.h>
+
 // construct string representations of ints/longs
 #if defined(__GNUC__) && __GNUC__ < 3 && __GNUC_MINOR__ < 96
 String::String(const int num)
