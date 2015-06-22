@@ -288,3 +288,5 @@
 #define __PROXYUSER "nobody"
 #define __PROXYGROUP "nobody"
 
+#define __SSLMITM
+#define __SSLCERT

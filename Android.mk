@@ -20,25 +20,23 @@ LOCAL_SRC_FILES := $(GNUSTL_PATH)/libsupc++.a
 include $(LOCAL_PATH)/gnustl.mk
 include $(BUILD_PREBUILT)
 
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libgnustl_shared
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .so
+#LOCAL_SRC_FILES := $(GNUSTL_PATH)/libgnustl_shared.so
+#include $(LOCAL_PATH)/gnustl.mk
+#include $(BUILD_PREBUILT)
+
+
 include $(CLEAR_VARS)
-LOCAL_MODULE := libgnustl_shared
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := $(GNUSTL_PATH)/libgnustl_shared.so
-include $(LOCAL_PATH)/gnustl.mk
 
-include $(BUILD_PREBUILT)
-
-
-include $(CLEAR_VARS)
-
-#	src/contentscanners/icapscan.cpp 
 #	src/contentscanners/avastdscan.cpp 
 #	src/contentscanners/kavdscan.cpp 
 #	src/contentscanners/commandlinescan.cpp 
 #	src/contentscanners/clamdscan.cpp 
 
-#	src/authplugins/dnsauth.cpp
+#	src/authplugins/dnsauth.cpp \
 #	src/authplugins/ntlm.cpp \
 
 LOCAL_SRC_FILES := \
@@ -54,6 +52,7 @@ LOCAL_SRC_FILES := \
 	src/String.cpp \
 	src/ConfigVar.cpp \
 	src/HTTPHeader.cpp \
+	src/contentscanners/icapscan.cpp \
 	src/downloadmanagers/fancy.cpp \
 	src/downloadmanagers/trickle.cpp \
 	src/downloadmanagers/default.cpp \
@@ -90,7 +89,8 @@ APP_STL := gnustl_static
 
 LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/src \
-        $(LOCAL_PATH)/../zlib 
+        $(LOCAL_PATH)/../zlib \
+        $(LOCAL_PATH)/../openssl/include
 
         #bionic/libc/dns 
         #$(LOCAL_PATH)/../stlport/stlport \
@@ -113,7 +113,7 @@ LOCAL_LDLIBSS += -llog -landroid
 LOCAL_MODULE := e2guardian
 LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
 LOCAL_MODULE_TAGS := eng
-LOCAL_SHARED_LIBRARIES += libc libz #libiconv
+LOCAL_SHARED_LIBRARIES += libc libz libcrypto libssl #libiconv
 #LOCAL_STATIC_LIBRARIES += gnustl_static
 
 LOCAL_NDK_STL_VARIANT := gnustl_static
@@ -122,13 +122,13 @@ LOCAL_SDK_VERSION := 19
 -include $(LOCAL_PATH)/gnustl.mk
 include $(BUILD_EXECUTABLE)
 
-#============== Copy Resolvers File ============
+#============== Copy configuration files ============
 
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := dnscrypt-resolvers.csv
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := ETC
-#LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)
-#LOCAL_SRC_FILES := $(LOCAL_MODULE)
-#include $(BUILD_PREBUILT)
+include $(CLEAR_VARS)
+LOCAL_MODULE := configs/*
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
 
