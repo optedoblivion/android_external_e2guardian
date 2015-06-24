@@ -16,7 +16,7 @@
 #include "FDFuncs.hpp"
 
 #ifdef __SSLMITM
-#include "CertificateAuthority.hpp"
+#include "CertificateAuthority.cpp"
 #endif //__SSLMITM
 
 #include <syslog.h>
