@@ -128,7 +128,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/e2guardian.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -136,7 +136,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/contentscanners/clamdscan.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/contentscanners
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/contentscanners
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -144,7 +144,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/contentscanners/icapscan.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/contentscanners
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/contentscanners
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -152,7 +152,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/contentscanners/commandlinescan.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/contentscanners
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/contentscanners
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -160,7 +160,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/contentscanners/avastdscan.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/contentscanners
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/contentscanners
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -168,7 +168,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/contentscanners/kavdscan.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/contentscanners
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/contentscanners
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -176,7 +176,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/downloadmanagers/trickle.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/downloadmanagers
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/downloadmanagers
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -184,7 +184,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/downloadmanagers/default.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/downloadmanagers
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/downloadmanagers
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -192,7 +192,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/downloadmanagers/fancy.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/downloadmanagers
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/downloadmanagers
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -200,7 +200,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/e2guardianf1.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -208,7 +208,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/authplugins/dnsauth.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/authplugins
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/authplugins
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -216,7 +216,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/authplugins/ident.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/authplugins
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/authplugins
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -224,7 +224,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/authplugins/port.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/authplugins
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/authplugins
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -232,7 +232,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/authplugins/proxy-basic.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/authplugins
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/authplugins
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -240,7 +240,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/authplugins/proxy-ntlm.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/authplugins
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/authplugins
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -248,7 +248,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/authplugins/ip.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/authplugins
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/authplugins
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -256,7 +256,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := configs/authplugins/proxy-digest.conf
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/authplugins
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/authplugins
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -264,7 +264,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/e2guardian.pl
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -272,7 +272,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/transparent1x1.gif
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -280,7 +280,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/lithuanian/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/lithuanian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/lithuanian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -288,7 +288,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/lithuanian/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/lithuanian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/lithuanian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -296,7 +296,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/lithuanian/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/lithuanian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/lithuanian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -304,7 +304,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/polish/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/polish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/polish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -312,7 +312,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/polish/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/polish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/polish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -320,7 +320,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/polish/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/polish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/polish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -328,7 +328,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/hungarian/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/hungarian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/hungarian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -336,7 +336,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/hungarian/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/hungarian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/hungarian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -344,7 +344,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/hungarian/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/hungarian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/hungarian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -352,7 +352,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/slovak/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/slovak
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/slovak
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -360,7 +360,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/slovak/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/slovak
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/slovak
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -368,7 +368,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/slovak/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/slovak
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/slovak
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -376,7 +376,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/malay/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/malay
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/malay
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -384,7 +384,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/malay/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/malay
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/malay
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -392,7 +392,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/malay/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/malay
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/malay
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -400,7 +400,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/italian/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/italian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/italian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -408,7 +408,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/italian/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/italian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/italian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -416,7 +416,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/italian/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/italian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/italian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -424,7 +424,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/danish/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/danish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/danish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -432,7 +432,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/danish/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/danish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/danish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -440,7 +440,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/danish/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/danish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/danish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -448,7 +448,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/russian-koi8-r/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/russian-koi8-r
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/russian-koi8-r
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -456,7 +456,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/russian-koi8-r/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/russian-koi8-r
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/russian-koi8-r
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -464,7 +464,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/russian-koi8-r/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/russian-koi8-r
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/russian-koi8-r
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -472,7 +472,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/ukenglish/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/ukenglish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/ukenglish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -480,7 +480,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/ukenglish/messages.alt
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/ukenglish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/ukenglish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -488,7 +488,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/ukenglish/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/ukenglish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/ukenglish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -496,7 +496,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/ukenglish/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/ukenglish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/ukenglish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -504,7 +504,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/german/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/german
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/german
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -512,7 +512,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/german/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/german
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/german
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -520,7 +520,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/german/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/german
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/german
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -528,7 +528,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/swedish/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/swedish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/swedish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -536,7 +536,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/swedish/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/swedish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/swedish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -544,7 +544,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/swedish/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/swedish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/swedish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -552,7 +552,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/ptbrazilian/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/ptbrazilian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/ptbrazilian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -560,7 +560,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/ptbrazilian/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/ptbrazilian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/ptbrazilian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -568,7 +568,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/ptbrazilian/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/ptbrazilian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/ptbrazilian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -576,7 +576,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/turkish/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/turkish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/turkish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -584,7 +584,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/turkish/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/turkish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/turkish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -592,7 +592,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/turkish/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/turkish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/turkish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -600,7 +600,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/portuguese/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/portuguese
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/portuguese
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -608,7 +608,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/portuguese/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/portuguese
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/portuguese
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -616,7 +616,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/portuguese/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/portuguese
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/portuguese
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -624,7 +624,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/portuguese/messagesaccents
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/portuguese
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/portuguese
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -632,7 +632,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/spanish/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/spanish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/spanish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -640,7 +640,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/spanish/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/spanish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/spanish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -648,7 +648,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/spanish/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/spanish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/spanish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -656,7 +656,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/czech/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/czech
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/czech
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -664,7 +664,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/czech/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/czech
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/czech
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -672,7 +672,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/czech/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/czech
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/czech
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -680,7 +680,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/french/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/french
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/french
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -688,7 +688,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/french/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/french
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/french
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -696,7 +696,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/french/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/french
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/french
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -704,7 +704,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/japanese/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/japanese
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/japanese
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -712,7 +712,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/japanese/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/japanese
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/japanese
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -720,7 +720,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/japanese/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/japanese
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/japanese
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -728,7 +728,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/dutch/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/dutch
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/dutch
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -736,7 +736,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/dutch/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/dutch
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/dutch
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -744,7 +744,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/dutch/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/dutch
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/dutch
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -752,7 +752,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/russian-1251/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/russian-1251
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/russian-1251
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -760,7 +760,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/russian-1251/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/russian-1251
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/russian-1251
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -768,7 +768,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/russian-1251/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/russian-1251
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/russian-1251
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -776,7 +776,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/bulgarian/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/bulgarian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/bulgarian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -784,7 +784,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/bulgarian/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/bulgarian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/bulgarian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -792,7 +792,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/bulgarian/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/bulgarian
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/bulgarian
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -800,7 +800,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/arspanish/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/arspanish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/arspanish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -808,7 +808,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/arspanish/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/arspanish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/arspanish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -816,7 +816,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/arspanish/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/arspanish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/arspanish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -824,7 +824,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/hebrew/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/hebrew
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/hebrew
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -832,7 +832,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/hebrew/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/hebrew
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/hebrew
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -840,7 +840,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/hebrew/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/hebrew
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/hebrew
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -848,7 +848,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/mxspanish/messages
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/mxspanish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/mxspanish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -856,7 +856,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/mxspanish/fancydmtemplate.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/mxspanish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/mxspanish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
@@ -864,7 +864,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := data/languages/mxspanish/template.html
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/data/languages/mxspanish
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/e2guardian/data/languages/mxspanish
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
